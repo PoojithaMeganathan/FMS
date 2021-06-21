@@ -1,0 +1,57 @@
+@CHARSET "ISO-8859-1";
+body
+{
+	margin: 0px;
+	padding:0px;
+	background: url(file:///D:/eclipse/ECLIPSE/JSP_CRUD/WebContent/images/pexels-lumn-295771.jpg);
+	background-size:cover;
+	font-family:cambria;
+}
+.login-box
+{
+	width:300px;
+	position:absolute;
+	top:30%;
+	left:40%;
+	transform:translate(-50%,-50%);
+	color:white;
+	border:3px #4caf50;
+}
+.login-box h1
+{
+	float:left;
+	font-size:40px;
+	border-bottom:6px solid #4caf50;
+	margin-bottom:50px;
+	padding:10px 0;
+}
+.textbox
+{
+	width:100%
+	overflow:hidden;
+	font-size:20px;
+	padding:80px 0;
+	border-bottom:2px solid #4caf50;
+}
+.textbox input
+{
+	border:none;
+	outline:none;
+	background:none;
+	color:black;
+	font-size:23px;
+	
+	width:80%;
+	float:left;
+	margin:0 10px;
+}
+.btn
+{
+	width:300px;
+	background:none;
+	border:10px solid #4acf50;
+	color:white;
+	padding:5px;
+	font-size:20px;
+	cursor:pointer;
+	margin:30px 0;

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Page</title>
+	<style>
+	*{
+	margin:0;
+	padding:0;
+	}
+	header{
+	height:60px;
+	background:green;
+	padding:0 50px;
+	}
+	.FMS{
+	width:30%;
+	float:left;
+	color:purple;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:60px;
+	font-size:35px;
+	font-family:cambria;
+	}
+	nav{
+	width:68%;
+	float:right;
+	}
+	nav ul{
+	list-style:none;
+	float:right;
+	}
+	nav ul li{
+	display: inline-block;
+	}
+	nav ul li a{
+	text-decoration: none;
+	color:purple;
+	font-family:cambria;
+	font-weight:bold;
+	margin:0 10px;
+	line-height:60px;
+	text-transform:uppercase;
+	}
+	.banner{
+	height:100%;
+	}
+	.banner img{
+	width:100%;
+	height:80vh;
+	}
+	.content{
+	padding:5%;
+	}
+	.content p{
+	font-size:18px;
+	line-height:1.7;
+	font-family:cambria;
+	margin-bottom:25px;
+	}
+	footer{
+	background:green;
+	color:purple;
+	padding:15px 50px;
+	text-align:center;
+	}
+	   
+	   
+	   @media (max-width: 600px){        
+
+	header {
+	 width: 100%;
+	 height: 100%;
+	 padding: 0;
+	 text-align: center;
+	}
+	.FMS{
+	 width: 100%;
+	 float: none;
+	}
+	nav {
+	 width: 100%;
+	 float: none;
+	}
+	nav ul li {
+	 display: block;
+	}
+	nav ul {
+	 float: none;
+	}
+	   }    
+	</style>
+</head>
+<body>
+	<header>
+		<div class="FMS">
+			FMS
+		</div>
+		<nav>
+			<ul>
+				<li>
+					<a href="home1.jsp">Home</a>
+				</li>
+				<li>
+					<a href="login_index.jsp">Login</a>
+				</li>
+				<li>
+					<a href="aboutus.html">About Us</a>
+				</li>
+				<li>
+					<a href="contactus.html">Contact us</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div class="banner"><img alt="" src="https://wallpapercave.com/wp/wp3166571.jpg"></div>
+	<footer>
+		<p>All Right Reserved By Your Website</p>
+	</footer>
+</body>
+</html>
+
